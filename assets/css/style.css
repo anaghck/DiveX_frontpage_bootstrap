@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+
+body{
+    background:#000F1A;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main{
+    height: 100vh;
+    background: url(../img/background.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#main .navbar{
+    background: linear-gradient(180deg, rgba(18, 18, 18, 0.6) 0%, rgba(18, 18, 18, 0) 100%) !important;
+    backdrop-filter: blur(7px) ;
+}
+
+#navbarText{
+    justify-content: center;
+}
+
+
+#main .nav-item{
+    margin: 0 15px;
+}
+
+#main .nav-link{
+    color: #E8F5FF;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+#main .navbar-text img{
+
+    margin: 0 15px;
+}
+
+
+
+#main .showcase{
+    height: calc(100vh - 66px);
+}
+
+#main .showcase .banner{
+    height: 100%;
+}
+
+#main .showcase .banner h1{
+    font-weight: 800;
+    color: #fff;
+    font-size: 50px;
+}
+
+#main .showcase .banner p{
+    color: #fff;
+}
+
+#main .showcase .banner .explore{
+
+    padding: 9px 44px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    color: #002F52;
+
+}
+
+#main .navbar-brand{
+    font-size: 25px;
+    color: #E8F5FF;
+}
+
+
+#post{
+    margin-top: 180px;
+    margin-bottom: 180px;
+    color: #fff;
+}
+
+#post button{
+    padding: 6px 33px;
+    font-weight: 600;
+    border: none;
+
+}
+
+
+#post p{
+    font-size: 14px;
+}
+
+#packages{
+    color: #fff;
+    margin-top: 60px;
+}
+
+#packages p{
+    font-size: 14px;
+}
+
+#packages .items{
+    color: #000000;
+}
+
+#packages .card{
+    border-radius: 6px;
+    border: none;
+    height: 100%;
+}
+
+
+#packages .card h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#packages .card .btn{
+    width: calc(100% - 30px);
+    position: absolute;
+    bottom: 15px;
+    background:#005EA3;
+}
+
+#packages .card .price{
+    position: absolute;
+    background: #fff;
+    top: 6px;
+    right: 6px;
+    border-radius: 5px;
+    padding: 4px 6px;
+    font-weight: 600;
+    color: #005EA3;
+    box-shadow: 0px 4px 7px #00000059;
+    
+}
+
+#packages .card .price span{
+    
+    font-family: auto;
+}
+
+footer{
+    background: #F4FBFF;
+    margin-top: 180px;
+    padding-top: 60px ;
+    color:#002F52
+}   
+
+footer ul{
+    list-style: none;
+    padding: 0;
+    
+}
+
+footer ul li{
+    margin: 15px auto;
+}
+
+footer .container-fluid{
+     background: #000f19;
+     padding: 20px;
+     color: #fff;
+}
+
